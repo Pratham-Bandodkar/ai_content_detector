@@ -16,7 +16,7 @@ WORKDIR /app
 RUN pip3 install --no-cache-dir \
     numpy \
     torch --index-url https://download.pytorch.org/whl/cpu \
-    tensorflow-cpu \
+    tensorflow \
     transformers \
     librosa \
     opencv-python-headless \
